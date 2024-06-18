@@ -1,0 +1,529 @@
+/* RESPONSIVE */
+
+/* MAIN  */
+
+@media screen and (max-width: 320px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    /* border: 1px solid black; */
+  }
+    .main {
+    height: 170vh;
+    width: 100%;
+    /* background-color: #343434; */
+    background-image: url("IMG/Header\ Background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .nav {
+    width: 100%;
+    flex-direction: column;
+  }
+  .nav a{
+    padding: 15px;
+  }
+  .nav input[type="search"] {
+    width: 60%;
+    height: 30px;
+  }
+
+  /* main-menu */
+
+  .main-menu {
+    display: block;
+  }
+  /* Part1  */
+
+  .main-menu .part1 {
+    width: 100%;
+  }
+
+  .main-menu .part1 img {
+    display: none;
+  }
+  .main-menu .part1 p {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .main-menu .part1 h5 {
+    width: 100%;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right:0px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .main-menu .but{
+    width: 100%;
+    text-align: center;
+  }
+  .main-menu .but button {
+    width: 60%;
+    margin-right: 0px;
+    margin-left:0px;
+    font-size: 25px;
+  }
+  .main-menu .part1 h6 {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    /* margin-right:0px; */
+    margin-left: 0px;
+  }
+
+  /* Part2 */
+
+  .main-menu .part2 {
+    position: relative;
+  }
+  #one {
+    position: absolute;
+    left: 40px;
+    top: -60px;
+  }
+  #one img {
+    height: 250px;
+    width: 250px;
+  }
+  #two {
+    position: absolute;
+    left: -10px;
+    top: 130px;
+  }
+  #two img {
+    height: 100px;
+    width: 100px;
+  }
+  #three {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+  }
+  #three img {
+    height: 180px;
+    width: 180px;
+  }
+
+  /* PAGE-2  */
+
+  .page-2 {
+    display: block;
+    height: 230vh;
+  }
+  .page-2 p {
+    width: 100%;
+    font-size: 35px;
+  }
+  .page-2 h5 {
+    width: 95%;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* ITEMS  */
+  .items {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+  #item1 img,
+  #item2 img,
+  #item3 img {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    padding: 0px;
+  }
+  #item1 h3,
+  #item2 h3,
+  #item3 h3 {
+    font-size: 25px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+  }
+  #item1 p,
+  #item2 p,
+  #item3 p {
+    width: 80%;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .page-2 button {
+    width: 80%;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  /* PAGE-3 */
+
+  .page-3 {
+    width: 100%;
+    height: 165vh;
+    background-color: #27292c;
+  }
+  .page-3 p {
+    font-size: 35px;
+  }
+  .para {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    columns: 1;
+    overflow: hidden;
+  }
+
+  .page-3 button {
+    width: 270px;
+    height: 58px;
+    font-size: 26px;
+    margin-left: 25px;
+    margin-top: 70px;
+  }
+
+  /* PAGE_4 */
+
+  .page-4 {
+    height: 130vh;
+    width: 100%;
+    display: block;
+  }
+  .image {
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+  }
+  .page-4 .image img {
+    height: 300px;
+    width: 300px;
+  }
+  .text {
+    display: block;
+    width: 100%;
+  }
+  .text p {
+    font-size: 30px;
+    width: 80%;
+    margin-left: 30px;
+  }
+  .text h6 {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .text button {
+    width: 80%;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  /* PAGE-5 */
+
+  .page-5 {
+    width: 100%;
+    display: block;
+    height: 110vh;
+  }
+  .page-5 .image {
+    width: 100%;
+    height: 350px;
+    margin-top: 0;
+    align-items: start;
+  }
+  .page-5 .image img {  
+    height: 300px;
+    /* width: 300px;  */
+  }
+  .page-5 .text {
+    width: 100%;
+    display: block;
+    margin-top: 0;
+  }
+  .page-5 .text p {
+    width: 80%;
+    font-size: 30px;
+  }
+  .page-5 h6 {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .page-5 button {
+    width: 80%;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  /* PAGE-6 */
+
+  .page-6 {
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .text1 {
+    display: block;
+    width: 100%;
+  }
+  .text1 p {
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+    margin-left: 30px;
+  }
+  .text2 {
+    width: 100%;
+  }
+  .text2 p {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+  }
+  .line {
+    width: 162px;
+    margin-left: 80px;
+  }
+  .item6 {
+    width: 100%;
+  }
+  .item6 img {
+    height: 200px;
+    width: 100%;
+    margin-top: -390px;
+  }
+  .item7 {
+    width: 100%;
+  }
+  .item7 img {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 300px;
+  }
+  .item8 {
+    width: 100%;
+  }
+  .item8 img {
+    height: 150px;
+    width: 150px;
+    margin-left: -180px;
+    margin-top: -150px;
+  }
+
+  /* PAGE-7 */
+
+  .page-7 {
+    width: 100%;
+    height: 200vh;
+    /* border: 1px solid black; */
+  }
+  .blank {
+    height: 50px;
+    width: 100%;
+  }
+  .textpre {
+    display: block;
+  }
+  .text3 {
+    width: 100%;
+    height: 80px;
+  }
+  #tet1 p,
+  #tet3 p,
+  #tet5 p {
+    font-size: 42px;
+    margin-top: 70px;
+  }
+  .text4 {
+    width: 100%;
+    height: 80px;
+  }
+  #tet2 p,
+  #tet4 p,
+  #tet6 p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .text5pre {
+    width: 100%;
+    height: 80px;
+  }
+  .blank2 {
+    height: 100px;
+    width: 100%;
+  }
+  .text5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text5 p {
+    width: 100%;
+    font-size: 30px;
+  }
+  .text6 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 250px;
+  }
+
+  /* PAGE-8 */
+
+  .page-8 {
+    width: 100%;
+    height: 120vh;
+    background-color: #27292c;
+  }
+  .item9 {
+    width: 100%;
+  }
+  .item9 img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 530px;
+  }
+  .blank3 {
+    height: 100px;
+    width: 100%;
+  }
+  .text7 {
+    width: 100%;
+    height: 100px;
+  }
+  .text7 p {
+    font-size: 50px;
+  }
+  .text8 {
+    width: 100%;
+    height: 150px;
+  }
+  .text8 p {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+  .email {
+    width: 100%;
+    height: 150px;
+    display: block;
+  }
+
+  .inp1 input {
+    width: 90%;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 15px;
+  }
+  .text9 {
+    font-size: 25px;
+    width: 50%;
+    margin-top: 8px;
+    text-align: center;
+  }
+  .inp2 input {
+    width: 60%;
+    height: 45px;
+    margin-left: 145px;
+  }
+
+  .text10 {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 12px;
+  }
+
+  /* PAGE-9 */
+
+  .page-9 {
+    height: 230vh;
+    width: 100%;
+  
+  }
+  .blank4 {
+    height: 50px;
+    width: 100%;
+  }
+  .parts {
+    height: 250px;
+    width: 100%;
+    display: block;
+  }
+  .page-9 .part1 {
+    width: 100%;
+    height: 250px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .text11 {
+    font-size: 39px;
+    width: 100%;
+  }
+  .text12 {
+    width: 100%;
+    height: 250px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .text13 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  .text13 i {
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 20px;
+
+  }
+  .part2 {
+    width: 100%;
+    height: 900px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .text14 {
+    width: 100%;
+    font-size: 40px;
+  }
+  .text15 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .text16 {
+    width: 100%;
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .text17 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .text18 {
+    width: 100%;
+    font-size: 40px;
+    margin-top:30px;
+  }
+  .text19 {
+    width: 100%;
+    font-size: 20px;
+  }
+}

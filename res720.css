@@ -1,0 +1,606 @@
+/* RESPONSIVE-2 */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    .main {
+      height: 225vh;
+      width: 100%;
+      background-image: url("IMG/Header\ Background.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .nav {
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav a {
+      padding: 20px;
+    }
+    .nav input[type="search"] {
+      width: 50%;
+      height: 30px;
+      margin-top: 20px;
+      margin-left: 220px;
+    }
+  
+    /* main-menu */
+  
+    .main-menu {
+      display: block;
+    }
+    /* Part1  */
+  
+    .main-menu.part1 {
+      width: 100%;
+    }
+  
+    .main-menu .part1 img {
+      height: 70px;
+      width: 70px;
+      margin-left: 80px;
+      margin-top: -45px;
+    }
+    .main-menu .part1 p {
+      width: 100%;
+      font-size: 75px;
+      margin-top: 20px;
+      margin-left: 0;
+      text-align: center;
+    }
+    .main-menu .part1 h5 {
+      width: 100%;
+      font-size: 40px;
+      margin-left: 0px;
+      text-align: center;
+    }
+    .main-menu .but{
+      width: 100%;
+    }
+    .main-menu .but button {
+      width: 40%;
+      margin-top: 20px;
+      font-size: 25px;
+      margin-left:200px;
+    }
+    .main-menu .part1 h6 {
+      width: 100%;
+      height: 130px;
+      font-size: 30px;
+      margin-top: 30px;
+      margin-left:0px;
+      text-align: center;
+    }
+  
+    /* Part2 */
+  
+    .main-menu .part2 {
+      width: 100%;
+      position: relative;
+    }
+    #one {
+      width: 70%;
+      position: absolute;
+      left:100px;
+      top: 0px;
+    }
+    #one img{
+      width: 500px;
+      height: 500px;
+    }
+    #two {
+      width: 100%;
+      position: absolute;
+      right:30px;
+      top:380px;
+    }
+    #two img{
+      height: 250px;
+      width: 250px;
+    }
+    #three {
+      position: absolute;
+      right:70px;
+      top: 290px;
+    }
+    #three img{
+      height: 420px;
+      width: 420px;
+    }
+  
+    /* PAGE-2  */
+  
+    .page-2 {
+      display: block;
+      height: 365vh;
+    }
+    .page-2 p {
+      width: 100%;
+      font-size: 55px;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .page-2 h5 {
+      width: 100%;
+      font-size: 30px;
+    }
+  
+    /* ITEMS  */
+    .items {
+      width: 100%;
+      display: block;
+      margin-left:0px;
+      text-align: center;
+      margin-top: -50px;
+    }
+    #item1 img {
+      width: 400px;
+      height: 400px;
+      margin-left: 0px;
+      padding: 0px;
+    }
+    #item2 img{
+        width: 400px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    #item3 img{
+        width: 400px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+   
+    #item1 h3 {
+      width: 100%;
+      font-size: 30px;
+      margin-left: 0px;
+      text-align: center;
+    }
+    #item2 h3 {
+        width: 100%;
+        font-size: 30px;
+        margin-left: 0px;
+        text-align: center;
+      }
+      #item3 h3 {
+        width: 100%;
+        font-size: 30px;
+        margin-left: 0px;
+        text-align: center;
+      }
+ 
+    #item1 p {
+      width: 100%;
+      font-size: 25px;
+      margin-top: 20px;
+      margin-left: 0px;
+      text-align: center;
+    }
+    #item2 p {
+        width: 100%;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+      }
+    #item3 p {
+        width: 100%;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+      }
+    .page-2 button {
+      width: 50%;
+      height: 50px;
+      margin-left: 180px;
+      margin-top: 40px;
+      text-align: center;
+    }
+  
+    /* PAGE-3 */
+  
+    .page-3 {
+      width: 100%;
+      height: 120vh;
+      background-color: #27292c;
+    }
+    .page-3 p {
+      width: 100%;
+      font-size: 55px;
+      height: 100px;
+    }
+    .para {
+      width: 100%;
+      columns: 1;
+      overflow: hidden;
+      text-align:justify;
+      font-size: 20px;
+    }
+  
+    .page-3 button {
+      width: 50%;
+      height: 40px;
+      margin-left: 180px;
+      margin-top: 50px;
+    }
+  
+    /* PAGE_4 */
+  
+    .page-4 {
+      height:165vh;
+      width: 100%;
+      display:block;
+    }
+    .image {
+      height:450px;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .image img{
+      height: 500px;
+      width: 500px;
+    }
+    .text {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .text p {
+      font-size: 50px;
+      width: 64%;
+      margin-top: 30px;
+      margin-left: 130px;
+      text-align: center;
+    }
+    .text h6 {
+      width: 100%;
+      height: 170px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .text button {
+      width: 50%;
+      height: 40px;
+      margin-left:0px;
+      margin-top: 0;
+    }
+  
+    /* PAGE-5 */
+  
+    .page-5 {
+      width: 100%;
+      height: 165vh;
+      display: block;
+    }
+    .page-5 .image {
+      width: 100%;
+      height: 450px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .page-5 .image img{
+      height: 500px;
+      width: 500px;
+    }
+  
+    .page-5 .text {
+      width: 100%;
+      height: 700px;
+      display: block;
+    }
+    .page-5 .text p {
+      width: 60%;
+      text-align: center;
+      font-size: 50px;
+      margin-left: 130px;
+    }
+    .page-5 h6 {
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+    }
+    .page-5 button {
+      width: 50%;
+      height: 40px;
+      font-size: 29px;
+      margin-top: -20px;
+    }
+  
+    /* PAGE-6 */
+  
+    .page-6 {
+      height: 141vh;
+      width: 100%;
+      background-image: url("IMG/Header\ Background.svg");
+      background-repeat: no-repeat;
+      background-size:cover;
+    }
+    .text1 {
+      width: 100%;
+      font-size: 55px;
+      text-align: center;
+    }
+    .text1 p {
+      width: 100%;
+      margin-top:50px;
+    }
+  
+    .text2 {
+      width: 100%;
+      display: block;
+    }
+    .text2 p {
+      width: 60%;
+      text-align: center;
+      margin-top: 30px;
+      margin-left: 140px;
+    }
+    .line {
+      width: 30%;
+      height: 10px;
+      text-align: center;
+      display: block;
+      margin-top:50px;
+      margin-left:250px;
+    }
+    .item6 {
+      width: 100%;
+      display: block;
+    }
+    .item6 img {
+      height: 550px;
+      width: 700px;
+      margin-top:-390px;
+    }
+    .item7 {
+      width: 100%;
+      display:block;
+    }
+    .item7 img {
+      margin-left:60px;
+      height: 500px;
+      width: 500px;
+      margin-top:-125px;
+      margin-left: 200px;
+    }
+    .item8 {
+      width: 100%;
+      display: block;
+    }
+    .item8 img {
+      height: 280px;
+      width: 280px;
+      margin-top: -230px;
+      margin-left:100px;
+    }
+  
+    /* PAGE-7 */
+  
+    .page-7 {
+      width: 100%;
+      height: 190vh;
+    }
+    .blank {
+      height: 90px;
+      width: 100%;
+    }
+    .textpre {
+      display: block;
+     
+    }
+    .text3 {
+      width: 100%;
+      height: 100px;
+    }
+    #tet1 p,
+    #tet3 p,
+    #tet5 p {
+      font-size: 45px;
+      margin-top: 50px;
+    }
+    .text4 {
+      width: 100%;
+      height: 100px;
+     
+    }
+    #tet2 p,
+    #tet4 p,
+    #tet6 p {
+      width: 80%;
+      font-size: 25px;
+      margin-left: 20px;
+      margin-left: 100px;
+     
+    }
+    .text5pre {
+      width: 100%;
+      height: 100px;
+    }
+    .blank2 {
+      height: 100px;
+      width: 100%;
+    }
+    .text5 {
+      width: 100%;
+      display: block;
+    }
+    .text5 p {
+      width: 100%;
+      height: 230px;
+      font-size: 32px;
+      text-align: center;
+    }
+    .text6 {
+      width: 100%;
+      display: block;
+      font-size: 28px;
+      
+    }
+  
+    /* PAGE-8 */
+  
+    .page-8 {
+      width: 100%;
+      height: 110vh;
+      background-color: #27292c;
+    }
+    .item9 {
+      width: 100%;
+     display: block;
+    }
+    .item9 img {
+      width: 700px;
+      height:800px;
+      display: block;
+      margin-bottom:250px;
+    }
+    .blank3 {
+      height: 100px;
+      width: 100%;
+    }
+    .text7 {
+      width: 100%;
+      height: 100px;
+      display: block;
+    }
+    .text7 p {
+      font-size: 70px;
+      text-align: center;
+    }
+    .text8 {
+      width: 100%;
+      height: 150px;
+      display: block;
+  
+    }
+    .text8 p {
+      width: 100%;
+      font-size: 25px;
+    }
+    .email {
+      width: 100%;
+      height: 100px;
+      display: block;
+    }
+  
+    .inp1 input {
+      width: 80%;
+      height: 50px;
+      margin-top: 0px;
+      margin-left: 70px;
+    }
+  
+    .inp2 input {
+      width: 50%;
+      height: 50px;
+      margin-left: 250px;
+      display: block;
+    }
+  
+    .text9 {
+      width: 80%;
+      font-size: 25px;
+      margin-top: 9px;
+      text-align: center;
+    }
+    .text10 {
+      font-size: 20px;
+      margin-left: 150px;
+      margin-top: 9px;
+      text-align: center;
+    }
+  
+    /* PAGE-9 */
+  
+    .page-9 {
+      height:210vh;
+      width: 100%;
+    }
+    .blank4 {
+      height: 100px;
+      width: 100%;
+    }
+    .parts {
+      height: 400px;
+      width: 100%;
+      display: block;
+    }
+    .page-9 .part1 {
+      width: 100%;
+      height: 350px;
+      display: block;
+      margin-left: 0px;
+      text-align: center;
+    }
+    .text11 {
+      font-size: 50px;
+      width: 100%;
+      
+    }
+    .text12 {
+      width: 100%;
+      height: 150px;
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    .text13 i {
+      padding: 20px;
+      font-size: 40px;
+    }
+    .page-9 .part2 {
+      width: 100%;
+      height: 400px;
+      display: block;
+      text-align: center;
+    }
+  
+    .text14 {
+      width: 50%;
+      font-size: 45px;
+    }
+    .text15 {
+      width: 50%;
+      font-size: 30px;
+      margin-left: 120px;
+      text-align: justify;
+    }
+    .text16 {
+      font-size: 45px;
+      margin-top: -280px;
+      margin-left: 140px;
+    }
+    .text17 {
+      width: 50%;
+      font-size: 30px;
+      margin-left: 380px;
+      text-align: justify;
+    }
+    .text18 {
+        width: 100%;
+      font-size: 45px;
+      margin-top: 100px;
+      text-align: center;
+
+    }
+    .text19 {
+      width: 50%;
+      margin-left: 335px;
+      font-size: 30px;
+      text-align: justify;
+    }
+  }
+  
